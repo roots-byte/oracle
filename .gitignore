@@ -1,0 +1,31 @@
+# Build directories
+/build/
+/out/
+
+# Local binaries and objects
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Oracle client binaries/import libraries
+oci.lib
+oci.dll
+oraociei*.dll
+ociw32.dll
+
+# Keep only project-owned public headers in header/
+/header/*.h
+!/header/oracle.h
+!/header/wrapper.h
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
