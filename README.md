@@ -201,31 +201,6 @@ If that happens, use a matching OCI import library or build with MSVC toolchain.
 
 ---
 
-## What You Can Publish On GitHub
-
-You can safely publish your own source code and project files, for example:
-
-- `oracle.c`
-- `example.c`
-- `CMakeLists.txt`
-- `header/oracle.h`
-- `header/wrapper.h`
-- `README.md`
-- `LICENSE`
-
-Do not publish Oracle-provided binaries/SDK files unless Oracle license terms explicitly allow redistribution in your case, especially:
-
-- `oci.lib`, `oci.dll`, `oraociei*.dll`, `ociw32.dll`
-- OCI SDK headers such as `oci.h`, `oratypes.h`, and related Oracle header files
-
-Recommended approach:
-
-- Keep Oracle client files out of the repository.
-- Document download/setup steps (this README already does this).
-- Add Oracle client artifacts to `.gitignore`.
-
----
-
 ## License
 
 This project is licensed under the MIT License.
